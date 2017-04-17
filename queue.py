@@ -2,6 +2,8 @@
 
 Warning: this is not the best way to implement a Queue."""
 
+from collections import deque 
+
 
 class Queue(object):
     """FIFO queue."""
@@ -53,9 +55,7 @@ class Queue(object):
             3
         """
 
-        # FIXME
-
-        pass
+        return self._list.append(item)
 
     def peek(self):
         """Return but don't remove the first item in the queue.
@@ -71,10 +71,9 @@ class Queue(object):
             >>> q
             <Queue ['buy flight', 'pack', 'enjoy vacation']>
         """
+        
+        return self._list[0] 
 
-        # FIXME
-
-        pass
 
 if __name__ == "__main__":
     import doctest

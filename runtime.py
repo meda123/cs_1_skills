@@ -3,8 +3,7 @@ def string_compare(s1, s2):
 
     Put runtime here:
     -----------------
-    [               ]
-
+    [O(n)           ]
 
     """
 
@@ -21,9 +20,9 @@ def string_compare(s1, s2):
 def has_exotic_animals(animals):
     """Determine whether a list of animals contains exotic animals.
 
-    Put runtime here:
-    -----------------
-    [               ]
+    Put runtime here: 
+     -----------------
+    [O(n)            ]
 
     """
 
@@ -38,7 +37,7 @@ def sum_zero_1(numbers):
 
     Put runtime here:
     -----------------
-    [               ]
+    [O(n)           ]
 
     """
 
@@ -60,7 +59,7 @@ def sum_zero_2(numbers):
 
     Put runtime here:
     -----------------
-    [               ]
+    [O(n^2)         ]
 
     """
 
@@ -80,7 +79,7 @@ def sum_zero_3(numbers):
 
     Put runtime here:
     -----------------
-    [               ]
+    [O(n^2)         ]
 
     """
 
